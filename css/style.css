@@ -130,6 +130,8 @@ header.page-header nav ul li a {
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
+  transition-property: background, color;
+  transition-duration: .2s, .45s;
 }
 header.page-header nav ul li:hover a,
 header.page-header nav ul li.active a {
